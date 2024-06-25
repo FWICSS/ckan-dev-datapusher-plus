@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4be463cc-044c-45dd-a521-dc0c03d7b860" name="Changes" comment="code with ronny" />
+    <list default="true" id="4be463cc-044c-45dd-a521-dc0c03d7b860" name="Changes" comment="code with ronny">
+      <change afterPath="$PROJECT_DIR$/ckan-docker-dev-datapusher/postgresql/docker-entrypoint-initdb.d/30_create_datapushuer_jobs.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckan-docker-dev-datapusher/docker-compose.dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ckan-docker-dev-datapusher/docker-compose.dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckan-docker-dev-datapusher/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ckan-docker-dev-datapusher/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckan-docker-dev-datapusher/postgresql/docker-entrypoint-initdb.d/10_create_ckandb.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ckan-docker-dev-datapusher/postgresql/docker-entrypoint-initdb.d/10_create_ckandb.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckan-docker-dev-datapusher/postgresql/docker-entrypoint-initdb.d/20_create_datastore.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ckan-docker-dev-datapusher/postgresql/docker-entrypoint-initdb.d/20_create_datastore.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckan-docker-dev-datapusher/postgresql/docker-entrypoint-initdb.d/30_setup_test_databases.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ckan-docker-dev-datapusher/postgresql/docker-entrypoint-initdb.d/40_setup_test_databases.sh" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,45 +29,45 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ckan-docker-dev-datapusher" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="f7487c06-c38d-4da5-adb7-beda42d54c2a" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.2.12_1/bin/php" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2iNPG3fyEQgRHw00w53B57iG9Qs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Docker.ckan-docker-dev-datapusher/docker-compose.dev.yml: Compose Deployment.executor": "Run",
-    "Docker.ckan-docker-dev/docker-compose.dev.yml: Compose Deployment.executor": "Run",
-    "Docker.ckan-docker: Compose Deployment.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/dimitriaigle/Nextcloud/dimitri/Apprentissage/ENTREPRISE/MIG/ckan-dev/ckan-docker-dev-datapusher",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "show.migrate.to.gradle.popup": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.ckan-docker-dev-datapusher/docker-compose.dev.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.ckan-docker-dev/docker-compose.dev.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.ckan-docker: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dimitriaigle/Nextcloud/dimitri/Apprentissage/ENTREPRISE/MIG/ckan-dev/ckan-docker-dev-datapusher&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ckan-docker-dev-datapusher" />
@@ -126,7 +134,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688233352254</updated>
-      <workItem from="1719327964119" duration="14181000" />
+      <workItem from="1719327964119" duration="18030000" />
     </task>
     <task id="LOCAL-00001" summary="code with ronny">
       <option name="closed" value="true" />
@@ -136,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719348203745</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="code with ronny">
+      <option name="closed" value="true" />
+      <created>1719353434735</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719353434735</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

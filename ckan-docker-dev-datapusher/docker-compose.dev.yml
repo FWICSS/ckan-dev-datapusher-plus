@@ -64,6 +64,8 @@ services:
       - DB_DATAPUSHER_JOBS
       - DB_DATAPUSHER_JOBS_USER
       - DB_DATAPUSHER_JOBS_PASS
+      - DB_DATAPUSHER_PASS
+      - DB_DATAPUSHER_USER
     volumes:
       - pg_data:/var/lib/postgresql/data
     restart: unless-stopped

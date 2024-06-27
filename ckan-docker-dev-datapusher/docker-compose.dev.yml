@@ -47,6 +47,7 @@ services:
       - "8800:8800"
     networks:
       - dbnet
+      - ckannet
 
   db:
     build:

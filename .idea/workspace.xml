@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4be463cc-044c-45dd-a521-dc0c03d7b860" name="Changes" comment="code with ronny">
-      <change afterPath="$PROJECT_DIR$/ckan-docker-dev-datapusher/postgresql/docker-entrypoint-initdb.d/30_create_datapushuer_jobs.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ckan-docker-dev-datapusher/docker-compose.dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ckan-docker-dev-datapusher/docker-compose.dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ckan-docker-dev-datapusher/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ckan-docker-dev-datapusher/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ckan-docker-dev-datapusher/postgresql/docker-entrypoint-initdb.d/10_create_ckandb.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ckan-docker-dev-datapusher/postgresql/docker-entrypoint-initdb.d/10_create_ckandb.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ckan-docker-dev-datapusher/postgresql/docker-entrypoint-initdb.d/20_create_datastore.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ckan-docker-dev-datapusher/postgresql/docker-entrypoint-initdb.d/20_create_datastore.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ckan-docker-dev-datapusher/postgresql/docker-entrypoint-initdb.d/30_setup_test_databases.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ckan-docker-dev-datapusher/postgresql/docker-entrypoint-initdb.d/40_setup_test_databases.sh" afterDir="false" />
-    </list>
+    <list default="true" id="4be463cc-044c-45dd-a521-dc0c03d7b860" name="Changes" comment="edit script sh base de donnée code with ronny" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +71,9 @@
   </component>
   <component name="RunManager" selected="Docker.ckan-docker-dev-datapusher/docker-compose.dev.yml: Compose Deployment">
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration name="ckan-docker-dev-datapusher/docker-compose.dev.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="docker-default">
@@ -134,7 +128,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688233352254</updated>
-      <workItem from="1719327964119" duration="18030000" />
+      <workItem from="1719327964119" duration="18291000" />
     </task>
     <task id="LOCAL-00001" summary="code with ronny">
       <option name="closed" value="true" />
@@ -152,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719353434735</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="edit script sh base de donnée code with ronny">
+      <option name="closed" value="true" />
+      <created>1719357504397</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719357504397</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +168,7 @@
       <path value="$PROJECT_DIR$/ckan-docker-dev-datapusher" />
     </ignored-roots>
     <MESSAGE value="code with ronny" />
-    <option name="LAST_COMMIT_MESSAGE" value="code with ronny" />
+    <MESSAGE value="edit script sh base de donnée code with ronny" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit script sh base de donnée code with ronny" />
   </component>
 </project>

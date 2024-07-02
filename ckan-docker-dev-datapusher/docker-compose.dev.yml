@@ -9,6 +9,7 @@ volumes:
 services:
 
   ckan-dev:
+    platform: linux/amd64
     build:
       context: ckan/
       dockerfile: Dockerfile.dev
@@ -70,6 +71,8 @@ services:
     volumes:
       - pg_data:/var/lib/postgresql/data
     restart: unless-stopped
+    ports:
+      - 5432:5432
     healthcheck:
       test: [ "CMD", "pg_isready", "-U", "${POSTGRES_USER}", "-d", "${POSTGRES_DB}" ]
     networks:

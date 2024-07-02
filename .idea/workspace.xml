@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4be463cc-044c-45dd-a521-dc0c03d7b860" name="Changes" comment="edit script sh base de donnée code with ronny" />
+    <list default="true" id="4be463cc-044c-45dd-a521-dc0c03d7b860" name="Changes" comment="add .env de datapusher-plus">
+      <change afterPath="$PROJECT_DIR$/ckan-docker-dev-datapusher/etape_config.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckan-docker-dev-datapusher/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckan-docker-dev-datapusher/img_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckan-docker-dev-datapusher/ckan/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ckan-docker-dev-datapusher/ckan/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckan-docker-dev-datapusher/datapusher-plus/datapusher-settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ckan-docker-dev-datapusher/datapusher-plus/datapusher-settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckan-docker-dev-datapusher/docker-compose.dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ckan-docker-dev-datapusher/docker-compose.dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckan-docker-dev-datapusher/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ckan-docker-dev-datapusher/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckan-docker-dev-datapusher/postgresql/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ckan-docker-dev-datapusher/postgresql/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckan-docker/docker-compose.dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ckan-docker/docker-compose.dev.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,26 +51,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Docker.ckan-docker-dev-datapusher/docker-compose.dev.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.ckan-docker-dev/docker-compose.dev.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.ckan-docker: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/dimitriaigle/Nextcloud/dimitri/Apprentissage/ENTREPRISE/MIG/ckan-dev/ckan-docker-dev-datapusher&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.ckan-docker-dev-datapusher/docker-compose.dev.yml: Compose Deployment.executor": "Run",
+    "Docker.ckan-docker-dev-datapusher: Compose Deployment.executor": "Run",
+    "Docker.ckan-docker-dev/docker-compose.dev.yml: Compose Deployment.executor": "Run",
+    "Docker.ckan-docker-dev: Compose Deployment.executor": "Run",
+    "Docker.ckan-docker/docker-compose.dev.yml: Compose Deployment.executor": "Run",
+    "Docker.ckan-docker: Compose Deployment.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "ignore_missing_gitignore": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/dimitriaigle/Nextcloud/dimitri/Apprentissage/ENTREPRISE/MIG/ckan-dev/ckan-docker-dev-datapusher",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "sqlite"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ckan-docker-dev-datapusher" />
@@ -76,10 +97,26 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="ckan-docker-dev-datapusher: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="docker-default">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="ckan-docker-dev-datapusher/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="ckan-docker-dev-datapusher/docker-compose.dev.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="docker-default">
       <deployment type="docker-compose.yml">
         <settings>
           <option name="sourceFilePath" value="ckan-docker-dev-datapusher/docker-compose.dev.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="ckan-docker-dev: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="docker-default">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="ckan-docker-dev/docker-compose.yml" />
         </settings>
       </deployment>
       <method v="2" />
@@ -92,10 +129,10 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="ckan-docker: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="docker-default">
+    <configuration name="ckan-docker/docker-compose.dev.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="docker-default">
       <deployment type="docker-compose.yml">
         <settings>
-          <option name="sourceFilePath" value="ckan-docker/docker-compose.yml" />
+          <option name="sourceFilePath" value="ckan-docker/docker-compose.dev.yml" />
         </settings>
       </deployment>
       <method v="2" />
@@ -103,8 +140,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Docker.ckan-docker-dev-datapusher/docker-compose.dev.yml: Compose Deployment" />
+        <item itemvalue="Docker.ckan-docker/docker-compose.dev.yml: Compose Deployment" />
+        <item itemvalue="Docker.ckan-docker-dev-datapusher: Compose Deployment" />
         <item itemvalue="Docker.ckan-docker-dev/docker-compose.dev.yml: Compose Deployment" />
-        <item itemvalue="Docker.ckan-docker: Compose Deployment" />
+        <item itemvalue="Docker.ckan-docker-dev: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -129,6 +168,9 @@
       <option name="presentableId" value="Default" />
       <updated>1688233352254</updated>
       <workItem from="1719327964119" duration="18291000" />
+      <workItem from="1719505888424" duration="1504000" />
+      <workItem from="1719929977693" duration="1270000" />
+      <workItem from="1719932375998" duration="11188000" />
     </task>
     <task id="LOCAL-00001" summary="code with ronny">
       <option name="closed" value="true" />
@@ -154,7 +196,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719357504397</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add .env.example">
+      <option name="closed" value="true" />
+      <created>1719506001788</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719506001788</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add .env de datapusher-plus">
+      <option name="closed" value="true" />
+      <created>1719506769699</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719506769699</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +227,8 @@
     </ignored-roots>
     <MESSAGE value="code with ronny" />
     <MESSAGE value="edit script sh base de donnée code with ronny" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit script sh base de donnée code with ronny" />
+    <MESSAGE value="add .env.example" />
+    <MESSAGE value="add .env de datapusher-plus" />
+    <option name="LAST_COMMIT_MESSAGE" value="add .env de datapusher-plus" />
   </component>
 </project>
